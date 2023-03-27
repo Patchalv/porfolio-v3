@@ -564,7 +564,7 @@ ul.experience-list li::before {
 
 @media screen and (max-width: 425px) {
     .desktop {
-        display: none;!important
+        display: none; !important
     }
 
     .responsive {
