@@ -198,11 +198,13 @@ h1 {
     width: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: 0.3s;
 }
+
 
 .social-sidebar svg:hover {
     filter: invert(93%) sepia(39%) saturate(2065%) hue-rotate(147deg) brightness(109%) contrast(101%);
-
+    transform: translate(0, -5px);
 }
 
 .social-sidebar::after {
@@ -382,6 +384,7 @@ ul.skills-list li::before {
     .image-wrapper img {
         border-radius: 5px;
         width: 100%;
+        max-width: 350px;
     }
     
     #boxborder {
@@ -726,6 +729,13 @@ ul.experience-list li::before {
 .project {
     background-color: var(--light-navy);
     padding: 25px;
+    transition: 0.3s;
+
+}
+
+.project:hover {
+    transform: translate(0, -10px);
+
 }
 
 .project-header {
@@ -775,6 +785,8 @@ ul.experience-list li::before {
     font-size: var(--fz-xs);
     display: inline-block;
 }
+
+
 @media (min-width:426px) and (max-width:768px) {
     .other-projects {
         display: grid;
