@@ -216,7 +216,7 @@ h1 {
     margin-left: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1140px) {
     .sideBar-Left {
         display: none;
     }
@@ -493,13 +493,20 @@ ul.experience-list li::before {
         align-items: center;
         z-index: 0;
     }
+
+    #ecc-text {
+        z-index: 5;
+    }
+
+    #ecc-image {
+        z-index: -5;
+    }
     
     .featured-image img {
         width: 500px;
         height: auto;
         position: absolute;
         align-self: center;
-        
     }
     
     .featured-image > img:last-of-type {
@@ -564,7 +571,7 @@ ul.experience-list li::before {
 
 @media screen and (max-width: 425px) {
     .desktop {
-        display: none; !important
+        display: none; 
     }
 
     .responsive {
@@ -622,10 +629,12 @@ ul.experience-list li::before {
     }
 }
 
-
-
 #work {
     width: 100%;
+}
+
+.featured-content {
+    z-index: 99;
 }
 
 .featured-project {
