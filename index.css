@@ -476,9 +476,13 @@ ul.experience-list li::before {
 
 @media screen and (max-width: 425px) {
     #Experience {
-        display: none;
+        margin-bottom: 600px;
+        /*display: none;*/
     }
 
+    .tabcontent {
+        margin-top: 50px;
+    }
 }
 
 
@@ -494,11 +498,11 @@ ul.experience-list li::before {
         z-index: 0;
     }
 
-    #ecc-text {
+    #pa-web-text {
         z-index: 5;
     }
 
-    #ecc-image {
+    #pa-web-image {
         z-index: -5;
     }
     
@@ -544,14 +548,20 @@ ul.experience-list li::before {
         display: none;
     }
 
+    #jammming {
+        background:linear-gradient(0deg, var(--dark-navy-shadow), var(--dark-navy-shadow)), url("Resources/Images/Work/jammming.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     #Inge {
         background:linear-gradient(0deg, var(--dark-navy-shadow), var(--dark-navy-shadow)), url("Resources/Images/Work/Ingehol.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    #ecc {
-        background:linear-gradient(0deg, var(--dark-navy-shadow), var(--dark-navy-shadow)), url("Resources/Images/Work/ecc.jpg");
+    #pa-web {
+        background:linear-gradient(0deg, var(--dark-navy-shadow), var(--dark-navy-shadow)), url("Resources/Images/Work/pawebdesign.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
