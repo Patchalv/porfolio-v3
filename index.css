@@ -744,13 +744,14 @@ ul.experience-list li::before {
     width: 20px;
 }
 
-.featured-project-links-left{
+.left svg{
     text-align: left;
 }
 
 
 .featured-project-links-left svg {
     width: 20px;
+    text-align: left;
 }
 
 .other-projects-wrapper h2 {
