@@ -732,6 +732,10 @@ ul.experience-list li::before {
     font-size: var(--fz-xs);
 }
 
+.featured-content svg {
+    width: 20px;
+}
+
 .featured-project-links-right{
     text-align: right;
     max-width: 70px;
