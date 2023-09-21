@@ -734,8 +734,8 @@ ul.experience-list li::before {
 
 .featured-project-links-right{
     text-align: right;
+    max-width: 70px;
 }
-
 
 .featured-project-links-right svg {
     width: 20px;
@@ -749,8 +749,6 @@ ul.experience-list li::before {
 .featured-project-links-left svg {
     width: 20px;
 }
-
-
 
 .other-projects-wrapper h2 {
     text-align: center;
