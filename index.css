@@ -738,7 +738,6 @@ ul.experience-list li::before {
 
 .featured-project-links-right{
     text-align: right;
-    max-width: 70px;
 }
 
 .featured-project-links-right svg {
