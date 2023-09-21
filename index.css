@@ -749,6 +749,10 @@ ul.experience-list li::before {
 }
 
 
+.right svg{
+    text-align: left;
+}
+
 .featured-project-links-left svg {
     width: 20px;
     text-align: left;
