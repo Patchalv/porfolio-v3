@@ -732,6 +732,26 @@ ul.experience-list li::before {
     font-size: var(--fz-xs);
 }
 
+.featured-project-links-right{
+    text-align: right;
+}
+
+
+.featured-project-links-right svg {
+    width: 20px;
+}
+
+.featured-project-links-left{
+    text-align: left;
+}
+
+
+.featured-project-links-left svg {
+    width: 20px;
+}
+
+
+
 .other-projects-wrapper h2 {
     text-align: center;
     color: var(--lightest-slate);
